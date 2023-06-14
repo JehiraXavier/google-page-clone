@@ -111,7 +111,7 @@ li {
     top: 34px;
   }
 
-  .form {
+  form {
     display: block;
     margin: auto;
   }
@@ -155,17 +155,42 @@ li {
     min-width: 54px;
     padding: 0 16px;
     text-align: center;
-  }
-  
-  .submit_buttons {
     position: relative;
     left: 25%;
     right: -50%;
-      cursor: pointer;
   }
-  
+    
   .submit_buttons:hover {
     border: .7px solid #d0d0d0;
     color: #000;
     box-shadow:0px 1px 4px #E4E4E4;
+  }
+
+  .left_footer {
+    float: left;
+  }
+  
+  .right_footer {
+    float: right;
+  }
+
+  footer {
+    line-height: 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #666666;
+    background-color: #f2f2f2;
+    border-top: solid 1px #e4e4e4;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+  }
+  
+  footer a:hover {
+    text-decoration-line: underline;
   }
